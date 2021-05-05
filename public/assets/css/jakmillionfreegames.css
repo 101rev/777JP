@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Roboto', sans-serif;
+    background: #041564;
+}
+.container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    background: #0C1C64;
+    max-width: 1980px;
+    margin: auto;
+    /*background-size: contain;*/
+    /*background: #0C1C64 url("../img/top-bkg-plus-mark.png") no-repeat top;*/
+}
+
+.main-logo{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 150px;
+}
+.main-logo img{
+    width: 100%;
+}
+img.top-bkg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.content{
+    width: 88%;
+    position: relative;
+    z-index: 3;
+    margin: auto;
+    max-width: 1760px;
+}
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0px;
+}
+.header-links a, .button{
+    width: 150px;
+    height: 46px;
+    margin: 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #3D99E8;
+    /*padding: 12px 45px;*/
+    background: #051043;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.header-links a.active, .button.active {
+    color: #0C1C64;
+    background: #FFC91E;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+    padding-top: 250px;
+}
+.main-btn{
+    display: flex;
+    justify-content: center;
+    margin: -50px auto 0 auto;
+    font-size: 26px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu .menu-item{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #3D99E8;
+    margin: 50px 15px;
+    font-size: 24px;
+}
+.menu .menu-item.active{
+    color: #FFC91E;
+    border-bottom: 2px solid #FFC91E;
+}
+.grid-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.grid-menu .menu-card{
+    width: 19.5%;
+    position: relative;
+    padding: 3px 4px;
+    margin-top: 12px;
+}
+.grid-menu .menu-card img{
+    width: 100%;
+}
+.card-title{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    background: #0C1C64;
+    color: #3D99E8;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu-card-lines{
+
+    /*margin: 12px auto;*/
+}
+.menu-card-line{
+    margin-top: 12px;
+    background: #010741;
+}
+.menu-card-title{
+    color: #3D99E8;
+}
+.card-description{
+    color: #C3E3FF;
+}
+.menu-card-content{
+    max-width: 600px;
+    padding: 20px 40px;
+}
+.menu-card-btn{
+    width: 80px;
+    height: 34px;
+    margin: 30px 0 0 0;
+}
+.footer{
+    padding-top: 100px;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .footer-text{
+    text-align: center;
+    color: #C3E3FF;
+    padding: 30px 0  87px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
